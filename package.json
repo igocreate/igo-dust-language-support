@@ -3,6 +3,7 @@
   "displayName": "Igo Dust Language Support",
   "description": "VS Code extension for igo-dust language support",
   "version": "0.1.0",
+  "publisher": "IGOCREATE",
   "repository": {
     "type": "git",
     "url": "https://github.com/igocreate/igo-dust-language-support" },
