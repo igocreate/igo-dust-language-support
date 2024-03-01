@@ -1,0 +1,25 @@
+{
+  "name": "igo-dust-language-support",
+  "displayName": "Igo Dust Language Support",
+  "description": "VS Code extension for igo-dust language support",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "igo-dust",
+      "aliases": ["Igo Dust", "igo-dust"],
+      "extensions": [".dust"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "igo-dust",
+      "scopeName": "source.igo-dust",
+      "path": "./syntaxes/igo-dust.tmLanguage.json"
+    }]
+  }
+}
