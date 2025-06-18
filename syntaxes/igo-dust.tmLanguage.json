@@ -65,7 +65,7 @@
       ]
     },
     "dust_block_end": {
-      "begin": "(\\{~?/)([a-zA-Z0-9_\\.->]+)\\s*",
+      "begin": "(\\{~?/)([a-zA-Z0-9_\\.\\->]+)\\s*",
       "beginCaptures": {
         "1": {
           "name": "entity.name.tag.block.open.dust"
