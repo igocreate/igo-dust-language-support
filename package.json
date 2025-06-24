@@ -2,7 +2,7 @@
   "name": "igo-dust-language-support",
   "displayName": "Igo Dust Language Support",
   "description": "VS Code extension for igo-dust language support",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "publisher": "IGOCREATE",
   "repository": {
     "type": "git",
@@ -12,6 +12,10 @@
   },
   "categories": [
     "Programming Languages"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onLanguage:igo-dust"
   ],
   "contributes": {
     "languages": [{
